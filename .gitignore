@@ -1,0 +1,33 @@
+# Ignore Node.js-related files and directories
+node_modules/
+npm-debug.log
+
+# Ignore build output directories (customize these as needed)
+dist/
+build/
+public/
+
+# Ignore any development-specific files
+.env
+.env.local
+
+# Ignore system files that might be created on different operating systems
+.DS_Store
+Thumbs.db
+
+# Ignore editor-specific files and directories
+.vscode/
+.idea/
+
+# Ignore compiled CSS files (if you're using a different build process)
+*.css
+
+# Ignore log files and backups
+*.log
+*.bak
+
+# Ignore your Tailwind CSS configuration file if you have custom settings
+tailwind.config.js
+
+# Ignore any other files or directories specific to your project
+# Add more rules as needed
